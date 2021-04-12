@@ -8,7 +8,7 @@
               <Button BackgroundColor="Blue" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" ></Button>
               <Button BackgroundColor="Green" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" ></Button>
           
-              <BoxView  BackgroundColor="Red" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />
+              <local:MyBoxView BackgroundColor="Red" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" />
                
               <Button Text="Button" BackgroundColor="Brown" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" />
 
