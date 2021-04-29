@@ -8,7 +8,7 @@
         xmlns:editor="http://schemas.syncfusion.com/wpf"
         Title="Shapes Loading" Height="450" Width="800">
     <Grid Margin="15">
-        <Image x:Name="img" Source="Assets\image.jpg"/>
+        <Image x:Name="image"/>
        
     </Grid>
 </Window>

@@ -102,6 +102,9 @@
     <Content Include="Assets\image.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Image1.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\RoadView.jpeg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -25,7 +25,18 @@ namespace ImageEditorSample
         public MainWindow()
         {
             InitializeComponent();
-            TestBitmap2ByteArray(new BitmapImage(new Uri(img.Source.ToString())));
+            BitmapImage BitmapImage = new BitmapImage();
+            BitmapImage.BeginInit();
+      
+            // Loading 10MB size image to the Image control.
+            BitmapImage.UriSource = new Uri(@"Assets/image.jpg", UriKind.Relative);
+            
+            // To load 50KB size image to the Image control.
+           // BitmapImage.UriSource = new Uri(@"Assets/Image1.jpeg", UriKind.Relative);
+
+            BitmapImage.EndInit();
+            image.Source = BitmapImage;
+            TestBitmap2ByteArray(new BitmapImage(new Uri(image.Source.ToString())));
         }
 
         public static void TestBitmap2ByteArray(BitmapImage bitmap)
